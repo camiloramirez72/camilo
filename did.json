@@ -1,23 +1,22 @@
 {
     "@context": [
         "https://www.w3.org/ns/did/v1",
-        "https://w3id.org/security/v2",
-        "https://w3id.org/security/suites/secp256k1recovery-2020/v2"
+        "https://w3id.org/security/v2"
     ],
     "id": "did:web:camiloramirez72.github.io:camilo",
     "verificationMethod": [
         {
-            "id": "did:web:camiloramirez72.github.io:camilo#04a993ee74cf18e2cf899dedf99af6a7242e0f030a3f87193f31685da4fb43228c933e7f1ac89379a689e4f31edf737e8adeca70c4258d0f194af8c7f9fdf02bd8",
-            "type": "EcdsaSecp256k1VerificationKey2019",
+            "id": "did:web:camiloramirez72.github.io:camilo#key-1",
+            "type": "Ed25519VerificationKey2018",
             "controller": "did:web:camiloramirez72.github.io:camilo",
-            "publicKeyHex": "cc5e429bfbe52a16392f808ea6983da33f07e35eba8c494e4e0a933593113bf7"
+            "publicKeyHex": "451a05454acffff0c400f868102e54eca7c226f5c1ca522adc52017d39db0078"
         }
     ],
     "authentication": [
-        "did:web:camiloramirez72.github.io:camilo#04a993ee74cf18e2cf899dedf99af6a7242e0f030a3f87193f31685da4fb43228c933e7f1ac89379a689e4f31edf737e8adeca70c4258d0f194af8c7f9fdf02bd8"
+        "did:web:camiloramirez72.github.io:camilo#key-1"
     ],
     "assertionMethod": [
-        "did:web:camiloramirez72.github.io:camilo#04a993ee74cf18e2cf899dedf99af6a7242e0f030a3f87193f31685da4fb43228c933e7f1ac89379a689e4f31edf737e8adeca70c4258d0f194af8c7f9fdf02bd8"
+        "did:web:camiloramirez72.github.io:camilo#key-1"
     ],
     "keyAgreement": [],
     "service": []
