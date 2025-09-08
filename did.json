@@ -1,23 +1,18 @@
 {
-    "@context": [
-        "https://www.w3.org/ns/did/v1",
-        "https://w3id.org/security/v2"
-    ],
-    "id": "did:web:camiloramirez72.github.io:camilo",
-    "verificationMethod": [
-        {
-            "id": "did:web:camiloramirez72.github.io:camilo#c03b820aeecf461eaf33f784a81204ef8f8089929cf10dbb4ec048825917b477",
-            "type": "Ed25519",
-            "controller": "did:web:camiloramirez72.github.io:camilo",
-            "publicKeyHex": "c03b820aeecf461eaf33f784a81204ef8f8089929cf10dbb4ec048825917b477"
-        }
-    ],
-    "authentication": [
-        "did:web:camiloramirez72.github.io:camilo#c03b820aeecf461eaf33f784a81204ef8f8089929cf10dbb4ec048825917b477"
-    ],
-    "assertionMethod": [
-        "did:web:camiloramirez72.github.io:camilo#c03b820aeecf461eaf33f784a81204ef8f8089929cf10dbb4ec048825917b477"
-    ],
-    "keyAgreement": [],
-    "service": []
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/v2"
+  ],
+  "id": "did:web:camiloramirez72.github.io:camilo",
+  "verificationMethod": [
+    {
+      "id": "did:web:camiloramirez72.github.io:camilo#c03b820aeecf461eaf33f784a81204ef8f8089929cf10dbb4ec048825917b477",
+      "type": "Ed25519VerificationKey2020",
+      "controller": "did:web:camiloramirez72.github.io:camilo",
+      "publicKeyMultibase": "zDwPucahmNF88AUrW9kSKTNg2USDL8SMdiRDrbZWZsdx2"
+    }
+  ],
+  "assertionMethod": [
+    "did:web:camiloramirez72.github.io:camilo#c03b820aeecf461eaf33f784a81204ef8f8089929cf10dbb4ec048825917b477"
+  ]
 }
