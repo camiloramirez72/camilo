@@ -6,17 +6,17 @@
     "id": "did:web:camiloramirez72.github.io:camilo",
     "verificationMethod": [
         {
-            "id": "did:web:camiloramirez72.github.io:camilo#c39051637bfe6e6d0528e172f1a80928ad2461c78fd9f978a7df6082d4417885",
+            "id": "did:web:camiloramirez72.github.io:camilo#c03b820aeecf461eaf33f784a81204ef8f8089929cf10dbb4ec048825917b477",
             "type": "Ed25519",
             "controller": "did:web:camiloramirez72.github.io:camilo",
-            "publicKeyHex": "451a05454acffff0c400f868102e54eca7c226f5c1ca522adc52017d39db0078"
+            "publicKeyHex": "c03b820aeecf461eaf33f784a81204ef8f8089929cf10dbb4ec048825917b477"
         }
     ],
     "authentication": [
-        "did:web:camiloramirez72.github.io:camilo#c39051637bfe6e6d0528e172f1a80928ad2461c78fd9f978a7df6082d4417885"
+        "did:web:camiloramirez72.github.io:camilo#c03b820aeecf461eaf33f784a81204ef8f8089929cf10dbb4ec048825917b477"
     ],
     "assertionMethod": [
-        "did:web:camiloramirez72.github.io:camilo#c39051637bfe6e6d0528e172f1a80928ad2461c78fd9f978a7df6082d4417885"
+        "did:web:camiloramirez72.github.io:camilo#c03b820aeecf461eaf33f784a81204ef8f8089929cf10dbb4ec048825917b477"
     ],
     "keyAgreement": [],
     "service": []
